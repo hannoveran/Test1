@@ -69,6 +69,43 @@
     </div>
 
     <div style="clear: both;">
+    <h2>Впорядкований список HTML</h2>
+        <ol>
+        <li>Лампа</li>
+        <li>Шафа</li>
+        <li>Стіл</li>
+        </ol>
+
+        <ol type="1">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ol>
+
+        <ol type="A">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ol>
+
+        <ol type="a">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ol>
+
+        <ol type="I">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ol>
+
+        <ol type="i">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ol>
+
         <h2>Невпорядкований список HTML</h2>
         <ul>
         <li>Лампа</li>
@@ -76,12 +113,57 @@
         <li>Стіл</li>
         </ul>
 
-    <h2>Впорядкований список HTML</h2>
-        <ol>
-        <li>Лампа</li>
-        <li>Шафа</li>
-        <li>Стіл</li>
-        </ol>
+    <h2>Невпорядкований список з круглими маркерами</h2>
+        <ul style="list-style-type:circle;">
+          <li>Кава</li>
+          <li>Чай</li>
+          <li>Молоко</li>
+        </ul>  
+
+        <h2>Невпорядкований список з квадратними маркерами</h2>
+        <ul style="list-style-type:square;">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ul>
+
+        <h2>Невпорядкований список без маркерів</h2>
+        <ul style="list-style-type:none;">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ul>
+    </div>
+
+    <div>
+      <h3>Списки опису</h3>
+      <dl>
+        <dt>Кава</dt>
+        <dd>- чорний гарячий напій</dd>
+        <dt>Молоко</dt>
+        <dd>- білий холодний напій</dd>
+      </dl>
+
+      <h3>Вкладені HTML-списки</h3>
+      <ul>
+        <li>Кава</li>
+        <li>Чай
+          <ul>
+            <li>Чорний чай</li>
+            <li>Зелений чай</li>
+          </ul>
+        </li>
+        <li>Молоко</li>
+      </ul>
+
+      <h3>Підрахунок контрольного списку</h3>
+      <ol start="50">
+        <li>Кава</li>
+        <li>Чай</li>
+        <li>Молоко</li>
+      </ol>
+
+      
     </div>
     <div>
         <table style="width:100%">
@@ -391,7 +473,7 @@
         </tr>
       </table>
 
-      <table id="t11"></table>
+      <table id="t11">
         <tr>
             <th>Ім'я</th>
             <th>Прізвище</th>
@@ -409,5 +491,596 @@
           </tr>
       </table>
 
+      <table id="t12">
+        <tr>
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+            <th>Вік</th>
+          </tr>
+          <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th colspan="2">Ім’я</th>
+          <th>Вік</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>57</td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th>Name</th>
+          <td>Jill</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Phone</th>
+          <td>555-1234</td>
+        </tr>
+        <tr>
+          <td>555-8745</td>
+      </tr>
+      </table>
+
+      <table id="t13">
+        <tr>
+        <th>Ім’я</th>
+        <th>Прізвище</th>
+        <th>Зарплата</th>
+        </tr>
+        <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td>$100</td>
+        </tr>
+        <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+        <td>$150</td>
+        </tr>
+        <tr>
+        <td>Joe</td>
+        <td>Swanson</td>
+        <td>$300</td>
+        </tr>
+        <tr>
+        <td>Cleveland</td>
+        <td>Brown</td>
+        <td>$250</td>
+        </tr>
+      </table>
+
+      <table style="width:100%" id="t14">
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+          <th>THU</th>
+          <th>FRI</th>
+          <th>SAT</th>
+          <th>SUN</th>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+      </table>
+
+      <table style="width:100%" id="t15">
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+          <th>THU</th>
+          <th>FRI</th>
+          <th>SAT</th>
+          <th>SUN</th>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+      </table>
+
+      <table id="t16">
+        <tr>
+          <td>Peter</td>
+          <td>Griffin</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Lois</td>
+          <td>Griffin</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>Joe</td>
+          <td>Swanson</td>
+          <td>$300</td>
+        </tr>
+        <tr>
+          <td>Cleveland</td>
+          <td>Brown</td>
+          <td>$250</td>
+        </tr>
+      </table>
+      
+      <table style="width: 100%;" id="t17">
+        <colgroup>
+          <col span="2" style="background-color: #D6EEEE">
+        </colgroup>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+          <th>THU</th>
+          <th>FRI</th>
+          <th>SAT</th>
+          <th>SUN</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+        </tr>
+      </table>
+
+      <table style="width: 100%;" id="t18">
+        <colgroup>
+          <col span="2" style="background-color: #D6EEEE">
+          <col span="3" style="background-color: pink">
+        </colgroup>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+          <th>THU</th>
+          <th>FRI</th>
+          <th>SAT</th>
+          <th>SUN</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+        </tr>
+      </table>
+      
+      <table style="width: 100%;" id="t19">
+        <colgroup>
+          <col span="3">
+          <col span="2" style="background-color: pink">
+        </colgroup>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+          <th>THU</th>
+          <th>FRI</th>
+          <th>SAT</th>
+          <th>SUN</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+        </tr>
+      </table>
+
+      <h2>HTML форми</h2>
+
+      <form action="https://www.w3schools.com/action_page.php">
+        Ім'я:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>
+        Прізвище:<br>
+        <input type="text" name="lastname" value="Mouse">
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <form>
+        <input type='radio' name='gender" value='male' checked> Чоловіча<br>
+       <input type='radio' name='gender' value='female'> Жіноча<br>
+       <input type='radio' name='gender' value='other'> Інше
+      </form>
+
+      <form action='/action_page.html'>
+        Ім’я:<br>
+        <input type='text' name='firstname' value='Mickey'><br>
+        Прізвище:<br>
+        <input type='text' name='lastname' value='Mouse'><br><br>
+        <input type='submit' value='Надіслати'>
+      </form>
+
+      <form action='/action_page.html'>
+        <fieldset>
+          <legend>Особиста інформація:</legend>
+          Ім’я:<br>
+          <input type='text' name='firstname' value='Mickey'><br>
+          Прізвище:<br>
+          <input type='text' name='lastname' value='Mouse'><br><br>
+          <input type='submit' value='Надіслати'>
+        </fieldset>
+      </form>
+      
+      <input name="firstname" type="text">
+
+      <select name="cars">
+        <option value="volvo">Volvo</option>
+       <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+       <option value="audi">Audi</option>
+      </select>
+
+      <option value="fiat" selected>Fiat</option>
+
+      <select name="cars" size="3">
+        <option value="volvo">Volvo</option>
+       <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+       <option value="audi">Audi</option>
+      </select>
+
+      <select name="cars" size="4" multiple>
+        <option value="volvo">Volvo</option>
+       <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+       <option value="audi">Audi</option>
+      </select>
+
+      <textarea name="message" rows="10" cols="10">
+        The cat was playing in the garden.
+        </textarea>
+
+        <textarea name="message" style="width:200px; height:600px;">
+          The cat was playing in the garden.
+          </textarea>
+
+          <button type="button" onclick="alert('Слава Україні!')">Тицни мене!</button>
+
+          <form action="/action_page.html">
+            <input list="browsers">
+            <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+          </form>
+          
+          <form action="/action_page.html"
+          oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+          0
+          <input type="range"  id="a" name="a" value="50">
+          100 +
+          <input type="number" id="b" name="b" value="50">
+          =
+          <output name="x" for="a b"></output>
+          <br><br>
+          <input type="submit">
+        </form>    
+        <form>
+          Ім’я користувача:<br>
+          <input type="text" name="username"><br>
+          Пароль користувача:<br>
+          <input type="password" name="psw">
+        </form>
+        
+        <form action="/action_page.html">
+          Ім’я:<br>
+          <input type="text" name="firstname" value="Mickey"><br>
+          Прізвище:<br>
+          <input type="text" name="lastname" value="Mouse"><br><br>
+          <input type="submit" value="Надіслати">
+          <input type="reset">
+        </form>
+
+        <form>
+          <input type="checkbox" name="vehicle1" value="Bike"> Я маю байк<br>
+         <input type="checkbox" name="vehicle2" value="Car"> Я маю авто
+        </form>
+
+        <form>
+          Оберіть ваш улюблений колір:
+           <input type="color" name="favcolor">
+         </form>
+
+         <form>
+          Birthday:
+           <input type="date" name="bday">
+         </form>
+
+         <form>
+          Введіть дату до 1980-01-01:
+          <input type="date" name="bday" max="1979-12-31"><br>
+          Введіть дату після 2000-01-01:
+          <input type="date" name="bday" min="2000-01-02"><br>
+        </form>
+
+        <form>
+          E-mail:
+           <input type="email" name="email">
+         </form>
+
+         <form>
+          Оберіть файл: <input type="file" name="myFile">
+        </form>
+
+        <form>
+          Birthday (month and year):
+           <input type="month" name="bdaymonth">
+         </form>
+
+         <form>
+          Quantity:
+         <input type="number" name="points"min="0" max="100" step="10" value="30">
+        </form>
+
+        <form>
+          <input type="range" name="points" min="0" max="10">
+         </form>
+
+         <form>
+          Пошук Google:
+           <input type="search" name="googlesearch">
+         </form>
+         
+         <form>
+          Телефон:
+          <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </form>
+
+        <form>
+          Додайте вашу домашню сторінку:
+           <input type="url" name="homepage">
+         </form>
+
+         <form>
+          Оберіть тиждень:
+           <input type="week" name="week_year">
+         </form>
+
+         <form action="">
+          Ім’я:<br>
+           <input type="text" name="firstname" value="John">
+         </form>
+
+         <form action="">
+          Ім’я:<br>
+           <input type="text" name="firstname" value="John" readonly>
+         </form>
+
+         <form action="">
+          Ім’я:<br>
+          <input type="text" name="firstname" value="John" disabled>
+        </form>
+
+        <form action="">
+          Ім’я:<br>
+           <input type="text" name="firstname" value="John" size="40">
+         </form>
+
+         <form action="">
+          Ім’я:<br>
+           <input type="text" name="firstname" maxlength="10">
+         </form>
+
+         <form action="/action_page_binary.asp" method="post">
+          Ім’я: <input type="text" name="fname"><br>
+          <input type="submit" value="Submit">
+          <input type="submit" formenctype="multipart/form-data"
+           value="Submit as Multipart/form-data">
+         </form>
+
+         <form action="/action_page.html" method="get">
+          Ім’я: <input type="text" name="fname"><br>
+          Прізвище: <input type="text" name="lname"><br>
+          <input type="submit" value="Submit">
+          <input type="submit" formmethod="post" value="Submit using POST">
+         </form>
+
+         <form action="/action_page.html">
+          E-mail: <input type="email" name="userid"><br>
+          <input type="submit" value="Submit"><br>
+          <input type="submit" formnovalidate value="Submit without validation">
+         </form>
+
+         <form action="/action_page.html">
+          Ім’я: <input type="text" name="fname"><br>
+           Прізвище: <input type="text" name="lname"><br>
+           <input type="submit" value="Надіслати як зазвичай">
+           <input type="submit" formtarget="_blank"
+           value="Надіслати в новому вікні">
+         </form>
+
+         <form action="https://www.w3schools.com/action_page.php">
+          <input type="text" name="fname" placeholder="Ім’я"><br>
+          <input type="text" name="lname" placeholder="Прізвище"><br>
+          <input type="submit" value="Відправити">
+        </form>
+
+         <form action="https://www.w3schools.com/action_page.php">
+          <input type="number" name="points" step="3">
+          <input type="submit">
+        </form>
+        
+        
 </body>
 </html>

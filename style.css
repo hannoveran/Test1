@@ -203,3 +203,74 @@ th {
     padding-left: 30px;
     padding-right: 40px;
 }
+
+#t12 th, #t12 td {
+  border: 20px solid black;
+}
+#t12 {
+  border-spacing: 30px;
+}
+
+#t13 tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+#t14 th, #t14 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#t14 th:nth-child(even),#t14 td:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+#t15 th, #t15 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#t15 tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+#t15 th:nth-child(even),#t15 td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+#t16 {
+  border-collapse: collapse;
+  width: 100%;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+#t16 th, #t16 td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+  border-top: none;
+}
+#t16 td{
+  border-right: #fff;
+  border-left: #fff;
+}
+
+#t17 th, #t17 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#t18 th, #t18 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#t19 th, #t19 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+form {
+  margin: 15px;
+}
