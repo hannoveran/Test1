@@ -1,0 +1,205 @@
+
+.diffLinkCol a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.diffLinkCol a:visited {
+    color: pink;
+    background-color: transparent;
+   text-decoration: none;
+  }
+  
+.diffLinkCol a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+.diffLinkCol  a:active {
+    color: yellow;
+    background-color: transparent;
+   text-decoration: underline;
+  }
+
+.button a:link, a:visited {
+    background-color: #f44336;
+   color: white;
+    padding: 15px 25px;
+    text-align: center;
+   text-decoration: none;
+    display: inline-block;
+  }
+  
+.button a:hover, a:active {
+   background-color: red;
+  }
+table {
+    border-spacing: 5px;
+    margin: 20px;
+  }
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+  }
+th {
+    text-align: left;
+  }
+#t01 {
+    width: 100%;
+    background-color: #f1f1c1;
+  }
+  #t01 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #t01 tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  #t01 th {
+    color: white;
+    background-color: black;
+  }
+  #t02 {
+    border-collapse: collapse;
+  }
+  
+  #t02 th, #t02 td {
+    border: 1px solid white;
+  }
+  
+  #t02 tr {
+    border: 1px solid white;
+  }
+  
+  #t02 tr:nth-child(odd) {
+    background-color: #96D4D4;
+  }
+  #t02 tr:nth-child(even) {
+    background-color: #96D4D4;
+  }
+
+  #t03 {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  #t03 th, #t03 td {
+    border: 1px solid black;
+  }
+  
+  #t03 th:first-child {
+    border-top-left-radius: 10px;
+  }
+  
+  #t03 th:last-child {
+    border-top-right-radius: 10px;
+  }
+  
+  #t03 td:first-child:last-child {
+    border-bottom-left-radius: 10px;
+  }
+  
+  #t03 td:last-child:last-child {
+    border-bottom-right-radius: 10px;
+  }
+
+  #t04 {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  #t04 th, #t04 td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  #t04 {
+    border-collapse: separate;
+    border-spacing: 10px; 
+    border: none;
+  }
+  
+  #t04 th, #t04 td {
+    border: 1px solid black;
+    border-radius: 10px; 
+    padding: 10px;
+  }
+  
+  #t05 {
+    border-collapse: collapse; 
+    border: 2px dotted black; 
+}
+
+#t05 th, #t05 td {
+    border: 2px dotted black; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+#t06 {
+    border-collapse: collapse; 
+    border: 2px dashed black; 
+}
+
+#t06 th, #t06 td {
+    border: 2px dashed black; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+#t07 {
+    border-collapse: collapse; 
+    border: 2px double black; 
+}
+
+#t07 th, #t07 td {
+    border: 2px double black; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+#t08 {
+    border-collapse: collapse; 
+    border: 2px none black; 
+}
+
+#t08 th, #t08 td {
+    border: none; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+#t09 {
+    border-collapse: collapse; 
+    border-color: rgb(255, 255, 0); 
+}
+
+#t09 th, #t09 td {
+    border-color: rgb(255, 255, 0); 
+    padding: 8px; 
+    text-align: left; 
+}
+  
+#t10 th {
+    text-align: left;
+  }  
+  #t10 {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+#t10 th, #t10 td {
+    border: 1px solid black; 
+    padding: 8px; 
+}
+
+#t11 th, #t11 td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
